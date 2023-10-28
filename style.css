@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.lolo {
+  background-color: rgb(185, 9, 9);
+  height: 1500px;
+  width: 50%;
+  float: left;
+  font-style: normal;
+}
+
+.lolo2 {
+  background-color: rgb(35, 32, 218);
+  height: 1500px;
+  width: 50%;
+  float: right;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  color: crimson;
+}
+
+.lolo ul li {
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: underline;
+  line-height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: burlywood;
+}
+
+.lolo2 ul li {
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: underline;
+  line-height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: goldenrod;
+}
+
+.btn {
+  text-align: center;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: darkgoldenrod;
+  border: solid 2px;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 27px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: darkkhaki;
+  color: darkslategrey;
+}
